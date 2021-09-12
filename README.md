@@ -3,12 +3,12 @@
 
 ## Overview of Project
 
-This model aim to review the historical data of the 12 selected stocks and measure their performance over the year 2017, and 2018. 
+This model aims to review the historical data of the 12 selected stocks and measure their performance over the year 2017, and 2018. 
 
-This model is refactor code of the original stock analysis, with the goal of improving overall processing efficiency.
+This model is the refactor code of the original stock analysis, with the goal of improving overall processing efficiency.
 
 ### Purpose
-The purpose of the model is to refactor the VBA code, with the help of looping tickers with their index (numbers), thus removing need for looking up values in each individuals arrays.
+The purpose of the model is to refactor the VBA code, with the help of looping tickers with their index (numbers), thus removing need for looking up values in each individual arrays.
 
 
 ## Analysis of Outcomes 
@@ -24,7 +24,7 @@ The purpose of the model is to refactor the VBA code, with the help of looping t
 ![2017_Stock_Analysis](https://github.com/div1085/stocks-analysis/blob/d60a5d22c137603653d88384f14b6bd351af7806/Resources/VBA_Challenge_2017.png)
 
 
-As we can see,for year 2017, original code took 1.13 seconds to run; in refactored code, however, time significantly dropped to 0.28 seconds.
+As we can see, for year 2017, original code took 1.13 seconds to run; in refactored code, however, time significantly dropped to 0.28 seconds.
 
 
 #### 2018 Data Original Code:
@@ -46,7 +46,7 @@ From both results, it can be inferred that refactored code is almost 4 times fas
 
 ### Advantages and disadvantages of refactoring code:
 
-#### Advanatges of refactoring code:
+#### Advantages of refactoring code:
 	- Steps can be reduced, thus making code less complex
 	- Smaller code are easier to maintain, and store
 	- Can be made useful for future users of code
